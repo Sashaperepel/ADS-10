@@ -4,7 +4,7 @@
 #include <vector>
 #include <algorithm>
 class Tree {
-   private:
+ private:
     std::vector<std::vector<char>> list;
     struct Node {
       char value = '\0';
@@ -30,7 +30,8 @@ class Tree {
       }
       return root;
     }
-   public:
+
+ public:
     std::vector<std::vector<char>> getPermut() const {
       return list;
     }
