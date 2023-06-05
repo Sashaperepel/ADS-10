@@ -9,7 +9,6 @@ std::vector<char> getPerm(const Tree& tree, int n) {
   std::vector<std::vector<char>> perm = tree.getPermut();
   if (n > perm.size()) {
     return {};
-  }
-  else {
+  } else {
     return perm[n - 1];
   }
