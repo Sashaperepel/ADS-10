@@ -12,3 +12,4 @@ std::vector<char> getPerm(const Tree& tree, int n) {
   } else {
     return perm[n - 1];
   }
+}
